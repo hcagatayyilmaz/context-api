@@ -1,6 +1,7 @@
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { CartItem } from "../components/CartItem";
 export function ShoppingCart() {
+  //Test
   const { closeCart, cartItems } = useShoppingCart();
   return (
     <div>

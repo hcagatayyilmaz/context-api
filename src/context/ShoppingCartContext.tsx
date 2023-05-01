@@ -2,6 +2,7 @@ import { ReactNode, createContext, useContext, useState } from "react";
 import { ShoppingCart } from "../components/ShoppingCart";
 
 const ShoppingCardContext = createContext({} as TShoppingCartContext);
+//const ShoppingCardContext = createContext<TShoppingCartContext>({});
 
 export function useShoppingCart() {
   return useContext(ShoppingCardContext);
